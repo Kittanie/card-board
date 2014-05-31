@@ -5,44 +5,51 @@
 
 	"cardPositions":[
 		{
-			"type": "deck1",
+			"id": "deck1",
+			"type":"deck",
 			"left": 4,
 			"top": 55
 		},
 
 		{
-			"type": "deck2",
+			"id": "deck2",
+			"type":"deck",
 			"left": 81,
 			"top": 55
 		},
 
 		{
-			"type":"deck3",
+			"id":"deck3",
+			"type":"deck",
 			"left": 42,
 			"top": 48
 		},
 
 		{
-			"type": "card1",
+			"id": "card1",
+			"type":"card",
 			"left": 4,
 			"top": 8
 
 		},
 
 		{
-			"type": "card2",
+			"id": "card2",
+			"type":"card",
 			"left": 31,
 			"top": 8
 		},
 
 		{
-			"type":"card3",
+			"id":"card3",
+			"type":"card",
 			"left": 53,
 			"top": 8
 		},
 
 		{
-			"type": "card4",
+			"id": "card4",
+			"type":"card",
 			"left": 81,
 			"top": 8
 		}

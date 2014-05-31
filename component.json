@@ -1,0 +1,16 @@
+{
+  "name": "card-board",
+  "repo": "kitto1/card-board",
+  "description": "Basic component for a table of cards layout. ",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+
+    <title>card-board test</title>
+
+    <!-- core CSS -->
+
+  </head>
+
+  <body>
+ 
+    <div id="game">
+
+    </div>
+
+    <script src="build/build.js"></script>
+    <script type="text/javascript">   
+
+        var cardBoard = require('card-board')
+
+        var data = {
+    
+    "height": 32,
+    "width": 15,
+
+    "cardPositions":[
+        {
+            "id": "deck1",
+            "type":"deck",
+            "left": 4,
+            "top": 55
+        },
+
+        {
+            "id": "deck2",
+            "type":"deck",
+            "left": 81,
+            "top": 55
+        },
+
+        {
+            "id":"deck3",
+            "type":"deck",
+            "left": 42,
+            "top": 48
+        },
+
+        {
+            "id": "card1",
+            "type":"card",
+            "left": 4,
+            "top": 8
+
+        },
+
+        {
+            "id": "card2",
+            "type":"card",
+            "left": 31,
+            "top": 8
+        },
+
+        {
+            "id":"card3",
+            "type":"card",
+            "left": 53,
+            "top": 8
+        },
+
+        {
+            "id": "card4",
+            "type":"card",
+            "left": 81,
+            "top": 8
+        }
+
+    ]
+
+}
+
+        var board = cardBoard(data)
+
+        var el = board.render()
+        var deck1 = board.getPositionById('deck1')
+
+        document.getElementById('game').appendChild(el)
+        
+    </script>
+    
+   
+  </body>
+</html>
